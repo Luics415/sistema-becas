@@ -1,6 +1,14 @@
 # Sistema de Becas Escolares
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-8%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8" />
+  <img src="https://img.shields.io/badge/Architecture-MVC-FF2D20?style=for-the-badge" alt="MVC" />
+  <img src="https://img.shields.io/badge/Database-MySQL_%2F_MariaDB-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
+
 Aplicación web en PHP con patrón MVC para gestionar convocatorias de becas, solicitudes de alumnos, validación documental y administración de usuarios.
+
 
 ## Descripción
 
@@ -84,8 +92,6 @@ Luego abre en el navegador:
 http://localhost/sistema_becas/index.php
 ```
 
-<img width="1178" height="792" alt="image" src="https://github.com/user-attachments/assets/cd377779-0f21-4bc9-b350-061ab1f3a1b3" />
-
 ## Acceso de prueba
 
 El script SQL incluye usuarios de ejemplo. Puedes iniciar sesión con:
@@ -114,10 +120,6 @@ index.php?c=student&a=convocatorias
 - `admin`: administración completa del sistema.
 - `alumno`: registro, consulta y seguimiento de trámites.
 
-<img width="1166" height="749" alt="image" src="https://github.com/user-attachments/assets/fff551f8-032e-49ea-9485-f261dbcbfaf0" />
-<img width="1167" height="744" alt="image" src="https://github.com/user-attachments/assets/6e005a7e-ee64-47cb-980d-9c4ead0fc4d3" />
-
-
 ## Carpetas clave
 
 - `controllers/`: lógica de cada módulo.
@@ -132,6 +134,17 @@ El proyecto incluye reglas básicas con `.htaccess` para evitar acceso directo a
 ## Nota de desarrollo
 
 Este proyecto está pensado como una solución MVC ligera para gestión escolar y becas, ideal para práctica, demostración o adaptación a un entorno real.
-No es el producto final que fue entregado, ya que el uso y documentacion tiene informacion privada.
 
+## Sugerencias futuras
 
+- Migrar a Composer y autoload PSR-4.
+- Separar configuración con variables de entorno.
+- Mejorar validaciones y autorización.
+- Añadir pruebas automatizadas.
+- Implementar subida de documentos segura y escalable.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
